@@ -1,16 +1,16 @@
-  <header>
+   <ul>
+   <li>
+    <a (click)="navigate()"></a><a [routerLink]="['/']">Home</a>
+    <a (click)="navigate()"></a><a [routerLink]="['page1']">Page 1</a>
+    <a (click)="navigate()"></a><a [routerLink]="['page2']">Page 2</a>
+    </li>
+  </ul>
+   
+   
+   <header>
   <h1>WDD2 CA2</h1>
   <h3>Name: Siobhan Ryan</h3>
   <h3>Group: ITM</h3>
   <h3>Student ID: X00123848</h3>
- 
-
-<h3> 
-  <a (click)="navigate()"></a><a [routerLink]="['page1']">Page 1</a>
-  <a (click)="navigate()"></a><a [routerLink]="['page2']">Page 2</a>
-</h3> 
-
-</header>
-
-
-
+ </header>
+<router-outlet></router-outlet>

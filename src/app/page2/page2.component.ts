@@ -12,7 +12,7 @@ export class Page2Component {
     constructor(private router: Router) { }
  
     goBack() {
-        this.router.navigate(["page2"]);
+        this.router.navigate(["page1"]);
     }
  
 }
